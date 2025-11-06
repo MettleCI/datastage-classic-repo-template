@@ -13,19 +13,10 @@ This directory holds sample Devops and Upgrade pipeline definitions foir a range
 
 Currently supported tools are:
 
-- Atlassian Bamboo (see note below)
 - Azure Devops
 - GitHub
 - GitLab
 - Jenkins (see note below)
-
-## Atlassian Bamboo
-
-Note that Atlassian Bamboo plans are supplied differently due to the way in which Atlassian Bamboo manages its pipeline definitions as code. (i.e. pipelines need to be generated via API calls rather than imported from text assets like other build systems)
-
-You can generate a sample Atlassian Bamboo plan which uses MettleCI using the `mettleci deploy devops-pipeline` command which is documentated [here](https://datamigrators.atlassian.net/wiki/spaces/MCIDOC/pages/549225052/Deploy+DevOps-Pipeline+Command).
-
-Read more about generating a sample MettleCI build plan for Atlassian Bamboo [here](https://datamigrators.atlassian.net/wiki/spaces/MCIDOC/pages/556302364/Generating+MettleCI+Bamboo+Plans).
 
 ## Azure Devops
 

@@ -51,7 +51,7 @@ then
     #
     # .apt files have been included in this MettleCI source repository.
     # Due the variety of ways .apt files may be managed within DataStage, 
-    # please refer to https://datamigrators.atlassian.net/wiki/x/A4Cjiw
+    # please refer to http://docs.mettleci.io/?q=strategies+for+managing+apt+files+in+mettleci+pipelines
     # for assistance on how to plan their migration.
     #
     ###############

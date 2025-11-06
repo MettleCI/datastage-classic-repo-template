@@ -26,10 +26,10 @@
 //
 // Resources:
 // CI/CD Pipeline Developers Guide
-// See https://datamigrators.atlassian.net/wiki/spaces/MCIDOC/pages/1266843717/Repeatable+DataStage+Project+Deployments
+// See https://docs.mettleci.io/repeatable-datastage-project-deployments
 //
 // MettleCI Command Line Interface
-// See https://datamigrators.atlassian.net/wiki/spaces/MCIDOC/pages/408354840/MettleCI+CLI+Operating+Modes
+// See https://docs.mettleci.io/mettleci-cli-operating-modes
 //
 
 // In summary, this workflow performs the following tasks:

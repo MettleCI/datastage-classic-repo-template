@@ -24,10 +24,10 @@ Some of these pipeline definitions also make use of reusable pipelines component
 
 | File | Description |
 |------|-------------|
-| `ccmt-template.yml`        |  A template which wraps the `mettleci datastage ccmt` command documented [here](https://datamigrators.atlassian.net/wiki/spaces/MCIDOC/pages/410681364/DataStage+Connector+Migration+Command). |
-| `compliance-template.yml`  |  A template which wraps the `mettleci compliance test` commands documented [here](https://datamigrators.atlassian.net/wiki/spaces/MCIDOC/pages/408322069/Compliance+Test+Command). |
+| `ccmt-template.yml`        |  A template which wraps the `mettleci datastage ccmt` command documented [here](https://docs.mettleci.io/datastage-connector-migration-command). |
+| `compliance-template.yml`  |  A template which wraps the `mettleci compliance test` commands documented [here](https://docs.mettleci.io/compliance-test-command). |
 | `deploy-template.yml`      |  A template which deploys your current DataStage software configuration stored in Git to a specified target environment. |
-| `unittest-template.yml`    |  A template which establishes the conditions necessary for executing a MettleCI unit test in your CI environment, then invokes that test using the `mettleci unittest test` command (documented [here](https://datamigrators.atlassian.net/wiki/spaces/MCIDOC/pages/718831617/UnitTest+Test+Command)) then publishes the resulting JUnit output. |
+| `unittest-template.yml`    |  A template which establishes the conditions necessary for executing a MettleCI unit test in your CI environment, then invokes that test using the `mettleci unittest test` command (documented [here](https://docs.mettleci.io/unittest-test-command)) then publishes the resulting JUnit output. |
 
 ### ADO-Setup.txt
 
@@ -36,4 +36,4 @@ of all the assets necessary to establish a working Azure DevOps pipeline using t
 
 # Documentation
 
-Start [here](https://datamigrators.atlassian.net/wiki/spaces/MCIDOC/pages/741310465/Azure+DevOps).
+Start [here](https://docs.mettleci.io/azure).

@@ -4,7 +4,7 @@
     | |  | |  __/ |_| |_| |  __/ |___ | |
     |_|  |_|\___|\__|\__|_|\___|\____|___|
     MettleCI DevOps for DataStage
-    (C) 2021-2024 Data Migrators
+    (C) 2021-2025 Data Migrators
 
 Your Jenkins CI template can be found in the following files:
 ```
@@ -56,4 +56,5 @@ script: "${env.METTLE_SHELL} remote upload
  -destination \"${env.BUILD_TAG}\""
 ```
 
+See [this page](https://docs.mettleci.io/jenkins) for more details.
 
